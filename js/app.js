@@ -11,7 +11,7 @@ angular.module('todomvc', ['ngRoute'])
 
 		var routeConfig = {
 			controller: 'TodoCtrl',
-			templateUrl: 'todomvc-index.html',
+			templateUrl: 'index.html',
 			resolve: {
 				store: function (todoStorage) {
 					// Get the correct module (API or localStorage).
